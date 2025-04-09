@@ -1,0 +1,249 @@
+/* Estilos de fuente Raleway */
+.raleway-300 {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.raleway-500 {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+.container {
+    width: 1280px;
+    position: relative;
+    margin: 0 auto;
+}
+
+/* Header */
+.header {
+    position: relative;
+    width: 1280px;
+    height: 73px;
+    background-color: black;
+}
+
+.header h1 {
+    position: absolute;
+    top: 7px;
+    left: 530px;
+    width: 221px;
+    height: 59px;
+    font: normal normal 500 50px/59px Raleway;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-align: left;
+    opacity: 1;
+}
+
+/* Banner / Hero */
+.banner {
+    width: 1280px;
+    height: 727px;
+    background: transparent url('../img/bg-header.jpg') 0% 0% no-repeat padding-box;
+    background-size: cover;
+}
+
+/* Sección de descripción */
+.descripcion {
+    position: relative;
+    width: 1280px;
+    height: 348px;
+    background: #000000;
+}
+
+.texto-descripcion {
+    position: absolute;
+    top: 76px;
+    left: 150px;
+    width: 475px;
+    height: 197px;
+    text-align: left;
+    font: normal normal 300 16px/19px Raleway;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+.imagen-descripcion {
+    position: absolute;
+    top: 45px;
+    left: 731px;
+    width: 399px;
+    height: 237px;
+    background: transparent url('../img/iguana-1.jpg') 0% 0% no-repeat padding-box;
+    background-size: cover;
+}
+
+/* Sección de características */
+.caracteristicas {
+    position: relative;
+    width: 1280px;
+    height: 348px;
+    background: #1E1A13;
+    opacity: 0.98;
+}
+
+.caracteristicas h2 {
+    position: absolute;
+    top: 75px;
+    left: 464px;
+    width: 356px;
+    height: 47px;
+    text-align: left;
+    font: normal normal 500 40px/47px Raleway;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+.iconos-container {
+    position: absolute;
+    top: 150px;
+    width: 1280px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.icono-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Icono de ojo */
+.icono-item:nth-child(1) .icono {
+    position: relative;
+    width: 57px;
+    height: 37px;
+    color: #FFFFFF;
+    font-size: 37px;
+    margin-bottom: 16px;
+}
+
+.icono-item:nth-child(1) p {
+    text-align: center;
+    font: normal normal 300 24px/29px Raleway;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+/* Icono de paz */
+.icono-item:nth-child(2) .icono {
+    position: relative;
+    width: 39px;
+    height: 56px;
+    color: #FFFFFF;
+    font-size: 56px;
+    margin-bottom: 16px;
+}
+
+.icono-item:nth-child(2) p {
+    text-align: center;
+    font: normal normal 300 25px/30px Raleway;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+/* Icono de pincel */
+.icono-item:nth-child(3) .icono {
+    position: relative;
+    width: 41px;
+    height: 49px;
+    color: #FFFFFF;
+    font-size: 49px;
+    margin-bottom: 16px;
+}
+
+
+.icono-item:nth-child(3) p {
+    text-align: center;
+    font: normal normal 300 25px/30px Raleway;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+/* Sección de galería */
+.galeria {
+    position: relative;
+    width: 1280px;
+    height: 348px;
+    background: #000000;
+    padding-top: 73px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.imagen-galeria {
+    width: 316px;
+    height: 202px;
+    overflow: hidden;
+}
+
+.imagen-galeria img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.img1 {
+    left: 150px;
+    background: transparent url('../img/iguana-2.jpg') 0% 0% no-repeat padding-box;
+}
+
+.img2 {
+    left: 482px;
+    background: transparent url('../img/iguana-3.jpg') 0% 0% no-repeat padding-box;
+}
+
+.img3 {
+    left: 814px;
+    background: transparent url('../img/iguana-4.jpg') 0% 0% no-repeat padding-box;
+}
+
+/* Footer */
+.footer {
+    position: relative;
+    width: 1280px;
+    height: 102px;
+    background: #1E1A13;
+    opacity: 0.94;
+}
+
+.footer-text {
+    position: absolute;
+    top: 39px;
+    left: 299px;
+    width: 682px;
+    height: 24px;
+    text-align: left;
+    font: normal normal 300 20px/24px Raleway;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+.footer-text a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footer-text a:hover {
+    text-decoration: underline;
+}
